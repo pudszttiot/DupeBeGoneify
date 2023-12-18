@@ -26,7 +26,28 @@ Provide examples and guidelines on how to use your project.
 
 ## Features
 
-List and describe the key features of your project.
+- Fetching Playlist:
+  - Allows users to input a Spotify playlist URI.
+
+- Displaying Fetched Playlist:
+  - The fetched playlist is displayed, showing song details such as name, artist, and album.
+
+- Detecting and Displaying Duplicate Songs:
+  - Users can click a button to detect duplicate songs in the fetched playlist.
+  - Duplicate songs are displayed in a separate Table.
+
+- Removing Duplicates:
+  - Users can click a button to remove duplicate songs from the displayed playlist.
+
+- Saving Results:
+  - Allows users to save the detected duplicate songs in a text file.
+
+- Saving New Playlist:
+  - Users can save the fetched playlist as an HTML file.
+
+- Spotify Integration:
+  - Spotipy library is used for interacting with the Spotify API.
+  - Spotify API credentials (client ID and client secret) need to be provided for authentication.
 
 ## Contributing
 
