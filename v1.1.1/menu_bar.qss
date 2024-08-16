@@ -1,0 +1,52 @@
+/* QMenuBar Styling */
+QMenuBar {
+    background-color: #282828;  /* Desired background color */
+    color: #bbe4ff;  /* Text color */
+    font-size: 18px;  /* Font size */
+    padding: 5px;  /* Padding */
+    border-bottom: 2px solid #228b22;  /* Bottom border for a clean separation */
+}
+
+QMenuBar::item {
+    background-color: transparent;  /* Match background color of menu items */
+    padding: 5px 10px;  /* Padding for menu items */
+    border-radius: 4px;  /* Rounded corners for menu items */
+}
+
+QMenuBar::item:selected {
+    background-color: #333333;  /* Background color when item is hovered or selected */
+    color: #1DB954;  /* Text color when item is hovered or selected */
+    border-radius: 4px;  /* Rounded corners for selected item */
+}
+
+QMenuBar::item:pressed {
+    background-color: #1DB954;  /* Background color when item is pressed */
+    color: white;  /* Text color when item is pressed */
+    border-radius: 4px;  /* Rounded corners for pressed item */
+}
+
+/* QMenu Styling */
+QMenu {
+    background-color: #191414;  /* Background color */
+    color: #bbe4ff;  /* Text color */
+    border: 1px solid #1DB954;  /* Border color */
+    border-radius: 6px;  /* Rounded corners for menu */
+}
+
+QMenu::item {
+    padding: 5px 10px;  /* Padding for menu items */
+    background-color: #333333;  /* Transparent background for items */
+    border-radius: 4px;  /* Rounded corners for menu items */
+}
+
+QMenu::item:selected {
+    background-color: #333333;  /* Background color when item is hovered or selected */
+    color: #1DB954;  /* Text color when item is hovered or selected */
+    border-radius: 4px;  /* Rounded corners for selected item */
+}
+
+QMenu::item:pressed {
+    background-color: #1DB954;  /* Background color when item is pressed */
+    color: white;  /* Text color when item is pressed */
+    border-radius: 4px;  /* Rounded corners for pressed item */
+}

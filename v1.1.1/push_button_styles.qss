@@ -1,0 +1,137 @@
+/* QPushButton Styles */
+QPushButton {
+    color: white;
+    border: 1px solid #1DB954;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+/* Fetch Button */
+QPushButton#fetchButton {
+    background-color: #1DB954; /* Background color */
+    color: white; /* Text color */
+    border: none; /* Remove border */
+    padding: 10px 20px; /* Padding around the text */
+    font-size: 14px; /* Font size */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s ease, box-shadow 0.3s ease; /* Smooth transition effects */
+    text-align: center; /* Center-align text */
+}
+
+QPushButton#fetchButton:hover {
+    background-color: #17a55d; /* Slightly darker green on hover */
+}
+
+QPushButton#fetchButton:pressed {
+    background-color: #148f40; /* Even darker green when pressed */
+    box-shadow: inset 0px 0px 5px rgba(0, 0, 0, 0.3); /* Inner shadow effect when pressed */
+}
+
+QPushButton#fetchButton:focus {
+    outline: none; /* Remove focus outline */
+}
+
+/* Clear Input Button */
+QPushButton#clearInputButton {
+    background-color: #e74c3c; /* Background color */
+    color: white; /* Text color */
+    border: none; /* Remove border */
+    padding: 10px 20px; /* Padding around the text */
+    font-size: 14px; /* Font size */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s ease, box-shadow 0.3s ease; /* Smooth transition effects */
+    text-align: center; /* Center text alignment */
+}
+
+QPushButton#clearInputButton:hover {
+    background-color: #c0392b; /* Darker red on hover */
+}
+
+QPushButton#clearInputButton:pressed {
+    background-color: #a93226; /* Even darker red when pressed */
+    box-shadow: inset 0px 0px 5px rgba(0, 0, 0, 0.3); /* Inner shadow effect when pressed */
+}
+
+QPushButton#clearInputButton:focus {
+    outline: none; /* Remove focus outline */
+}
+
+/* Detect Button */
+QPushButton#detectButton {
+    background-color: #1DB954; /* Background color */
+    color: white; /* Text color */
+    border: none; /* Remove border */
+    padding: 10px 20px; /* Padding around the text */
+    font-size: 14px; /* Font size */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s ease, box-shadow 0.3s ease; /* Smooth transition effects */
+    text-align: center; /* Center text alignment */
+}
+
+QPushButton#detectButton:hover {
+    background-color: #17a55d; /* Slightly darker green on hover */
+}
+
+QPushButton#detectButton:pressed {
+    background-color: #148c3d; /* Even darker green when pressed */
+    box-shadow: inset 0px 0px 5px rgba(0, 0, 0, 0.3); /* Inner shadow effect when pressed */
+}
+
+QPushButton#detectButton:focus {
+    outline: none; /* Remove focus outline */
+}
+
+/* Remove Duplicates Button */
+QPushButton#removeDuplicatesButton {
+    background-color: #e74c3c; /* Background color */
+    color: white; /* Text color */
+    border: none; /* Remove border */
+    padding: 10px 20px; /* Padding around the text */
+    font-size: 14px; /* Font size */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s ease, box-shadow 0.3s ease; /* Smooth transition effects */
+    text-align: center; /* Center text alignment */
+}
+
+QPushButton#removeDuplicatesButton:hover {
+    background-color: #c0392b; /* Darker red on hover */
+}
+
+QPushButton#removeDuplicatesButton:pressed {
+    background-color: #a93226; /* Even darker red when pressed */
+    box-shadow: inset 0px 0px 5px rgba(0, 0, 0, 0.3); /* Inner shadow effect when pressed */
+}
+
+QPushButton#removeDuplicatesButton:focus {
+    outline: none; /* Remove focus outline */
+}
+
+/* Save HTML Button */
+QPushButton#saveHtmlButton {
+    background-color: #1DB954; /* Background color */
+    color: white; /* Text color */
+    border: none; /* Remove border */
+    padding: 10px 20px; /* Padding around the text */
+    font-size: 14px; /* Font size */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s ease, box-shadow 0.3s ease; /* Smooth transition effects */
+    text-align: center; /* Center text alignment */
+}
+
+QPushButton#saveHtmlButton:hover {
+    background-color: #17a55d; /* Slightly darker green on hover */
+}
+
+QPushButton#saveHtmlButton:pressed {
+    background-color: #148c3d; /* Even darker green when pressed */
+    box-shadow: inset 0px 0px 5px rgba(0, 0, 0, 0.3); /* Inner shadow effect when pressed */
+}
+
+QPushButton#saveHtmlButton:focus {
+    outline: none; /* Remove focus outline */
+}
+
+/* Custom Styling for Specific Buttons */
+QPushButton#fetchButton, QPushButton#detectButton, QPushButton#saveHtmlButton {
+    background-color: #1DB954;
+}
