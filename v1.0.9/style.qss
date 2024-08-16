@@ -1,0 +1,87 @@
+/* General styles */
+QWidget {
+    background-color: #191414;
+    color: #bbe4ff;
+}
+
+/* QLabel */
+QLabel {
+    color: #bbe4ff;
+    font-size: 14px;
+    font-family: Arial;
+}
+
+/* QLineEdit */
+QLineEdit {
+    color: #bbe4ff;
+    background-color: #333333;
+    border: 1px solid #1DB954;
+    padding: 5px;
+}
+
+/* QPushButton */
+QPushButton {
+    color: white;
+    border: 1px solid #1DB954;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+QPushButton#fetchButton {
+    background-color: #1DB954;
+}
+
+QPushButton#clearInputButton {
+    background-color: #e74c3c;
+}
+
+QPushButton#detectButton {
+    background-color: #1DB954;
+}
+
+QPushButton#removeDuplicatesButton {
+    background-color: #e74c3c;
+}
+
+QPushButton#saveHtmlButton {
+    background-color: #1DB954;
+}
+
+/* QTableWidget */
+QTableWidget {
+    background-color: #333333;
+    color: white;
+}
+
+QTableWidget::item {
+    padding: 5px;
+}
+
+/* QHeaderView */
+QHeaderView::section {
+    background-color: #191414;
+    color: #1DB954;
+    padding: 5px;
+}
+
+/* QProgressBar */
+QProgressBar {
+    border: 1px solid #1DB954;
+    border-radius: 5px;
+    text-align: center;
+}
+
+QProgressBar::chunk {
+    background-color: #1DB954;
+}
+
+/* QStatusBar */
+QStatusBar {
+    background-color: #191414;
+    color: #bbe4ff;
+}
+
+/* Custom Styling for Specific Elements */
+QPushButton#fetchButton, QPushButton#clearInputButton, QPushButton#detectButton, QPushButton#removeDuplicatesButton, QPushButton#saveHtmlButton {
+    background-color: #1DB954;
+}
