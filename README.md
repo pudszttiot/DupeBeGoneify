@@ -9,6 +9,8 @@
 ---
 
 DupeBeGoneify
+<br>
+[![Download DupeBeGoneify](https://img.shields.io/sourceforge/dt/dupe-be-goneify.svg)](https://sourceforge.net/projects/dupe-be-goneify/files/latest/download)
 
 ---
 
